@@ -1,1 +1,2 @@
-# play.levshx.com
+# test-server
+play.levshx.com WebSocket

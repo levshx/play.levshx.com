@@ -1,0 +1,63 @@
+canvas {
+    position:absolute;
+    width:100%;
+    height:100%;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
+
+body {
+    margin: 0;
+}
+
+.login {
+  position: absolute;
+
+  z-index:  100;
+  top: 40%;
+  left: 35%;
+}
+
+.chat {
+  position: absolute;
+
+  z-index:  100;
+  top: 40%;
+  left: 35%;
+}
+
+.hidden {
+  display: none;
+}
+
+.skinchanger {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.chat {
+  position: absolute;
+
+  z-index:  100;
+  width: 200;
+  height: 600;
+  right: 0%;
+  top: 40px;
+}
+
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('/font/PressStart2P.ttf');
+}
+@font-face {
+  font-family: 'PICO-8';
+  src: url('/font/pico-8.ttf');
+}
+
+label {
+  font-family: 'PressStart2P';
+}
+input {
+  font-family: 'PressStart2P';
+}

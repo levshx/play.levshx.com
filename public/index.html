@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Pixeler</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <form class="login" id="login">
+        <div class="">            
+            <div class="skinchanger">
+                <img id="skin-img" src="" style="width: 60px; height: 60px;">
+                <img src="/img/reload.png" style="width: 40px; height: 40px; margin-top: 15px; margin-left: 20px;" alt="reload skin" onclick="reloadSkin()">
+            </div>
+            <input id="skin-id" type="hidden" name="skin-id" value="">
+            <label for="nick">nick: </label>
+            <input type="text" name="nick" id="nick" maxlength="24" required>            
+        </div>
+        <div class="">
+            <input type="submit" value="join">
+        </div>
+        <script type="text/javascript" src="https://crcit.net/circuit.js"></script>
+            <circuit-diagram circuit="4b1b15adefd64e48a284efda4ce9b483" width="600" height="400"></circuit-diagram>
+            <script type="text/javascript">
+            crcit.renderCircuits()
+            </script>
+    </form>
+    
+    <div class="chat hidden" id="chat">            
+        <label for="nick" style="color: white;">text: </label><br>
+        <input type="text" name="chatText" id="chatText" value="" maxlength="50">            
+    </div>        
+       
+
+    <canvas id="canvas"></canvas>
+    <script src="js/main.js"></script>    
+</body>
+
+</html>
